@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Carrega modelo treinado
-modelo = joblib.load('../modelo/arvore-decisao_pipeline.pkl')
+modelo = joblib.load('../modelo/arvore-decisao-pipeline1.pkl')
 
 @app.route('/')
 def home():
